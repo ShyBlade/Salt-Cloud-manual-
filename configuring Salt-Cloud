@@ -1,0 +1,16 @@
+# Configuring Salt cloud 
+
+## Pre-requisites
+
+- 1 host with salt-master software installed
+
+## installing Salt-Cloud software 
+   
+   for managing puproses it is better to install salt-master on the salt-master 
+   you can install Salt-Cloud on ubuntu with the following commands: 
+   
+       sudo add-apt-repository ppa:saltstack/salt
+       sudo apt-get update
+       sudo apt-get install salt-cloud
+       
+ ## adding cloud provider to salt-Cloud 
