@@ -13,4 +13,4 @@
        sudo apt-get update
        sudo apt-get install salt-cloud
        
- ## adding cloud provider to salt-Cloud 
+ ## adding cloud provider to salt-Cloud  
