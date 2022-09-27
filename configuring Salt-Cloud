@@ -52,6 +52,7 @@
     openssl x509 -inform pem -in /etc/salt/azure.pem -outform der -out /etc/salt/azure.cer 
     
     
+   to allow saltstack to manage Azute resources we need to uplaod the .cer file to the azure subscription manager. Find this in the list of all services then click on your subscription id and choose to upload a new certificate 
      
     
     
