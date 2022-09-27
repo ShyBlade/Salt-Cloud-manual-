@@ -19,13 +19,13 @@
   
   
   after installing salt cloud uncomment the following lines from /etc/salt/master:
-             file_roots:
-              base:
-            -/srv/salt
+         file_roots:
+         base:
+          - /srv/salt
             
       
   next step create the folder /srv/salt:
-      mkdir /srv/salt
+     mkdir /srv/salt
     
  
  in order to use salt-cloud and connect to azure we need to create an azure provider configuration. open /etc/salt/cloud.providers.d/azure.conf and add the following lines:
