@@ -39,7 +39,10 @@
     
     you need to adjust this configuration file to your case (subscription id,master DNS)
     
-    you need to create the .pem file. Execute the following command on your master VM: 
+   
+   ## creating Cer. and pem. file and uploading to azure 
+   
+   you need to create the .pem file. Execute the following command on your master VM: 
     
     openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout /etc/salt/azure.pem -out /etc/salt/azure.pem
     
