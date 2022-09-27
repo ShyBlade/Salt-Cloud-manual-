@@ -2,7 +2,7 @@
 
 ## Pre-requisites
 
-- 1 host with salt-master software installed
+- 1 host with salt-master software installed in azure 
 
 ## installing Salt-Cloud software 
    
@@ -36,6 +36,13 @@
 
   minion:
     master: mysaltmaster.eastus.cloudapp.azure.com
+    
+    you need to adjust this configuration file to your case (subscription id,master DNS
+    
+    
+    
+    
+    
     
     
     
