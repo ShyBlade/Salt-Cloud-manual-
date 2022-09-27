@@ -37,7 +37,19 @@
   minion:
     master: mysaltmaster.eastus.cloudapp.azure.com
     
-    you need to adjust this configuration file to your case (subscription id,master DNS
+    you need to adjust this configuration file to your case (subscription id,master DNS)
+    
+    you need to create the .pem file. Execute the following command on your master VM: 
+    
+    openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout /etc/salt/azure.pem -out /etc/salt/azure.pem
+    
+    
+    create the .cer file using the following command:
+    
+    openssl x509 -inform pem -in /etc/salt/azure.pem -outform der -out /etc/salt/azure.cer 
+    
+    
+     
     
     
     
