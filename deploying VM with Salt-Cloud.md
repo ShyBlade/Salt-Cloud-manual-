@@ -62,9 +62,13 @@ Attempt to boot a VM by name. VMs should have unique names in order to boot the 
 stop
 Attempt to stop a VM. This is akin to a force shutdown or 5 second press.
 
-#functions
+
+ # functions
 show_image
 Show all available information about a VM given by the image parameter
+
+     $ salt-cloud -f show_image virtualbox image=my_vm_name  
+    
     
     
   
