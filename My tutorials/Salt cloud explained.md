@@ -1,4 +1,4 @@
-## Salt cloud explained 
+# Salt cloud explained 
 
 
 Salt Cloud is a configuration management tool that allows users to provision systems on cloud hosts or hypervisors. During installation, Salt Cloud installs Salt on all provisioned systems by default. This enables the user to put systems into the desired state during provisioning.
@@ -16,3 +16,18 @@ Salt Cloud provides a powerful interface to interact with cloud hosts. This inte
 Since Salt Cloud is designed to be an automated system, most configuration is done using the following YAML configuration files.
 
 
+ 
+## installing Salt-Cloud software 
+
+Pre-requisites:
+
+- 1 host with salt-master software
+
+   
+   for managing puproses it is better to install salt-master on the salt-master 
+   you can install Salt-Cloud on ubuntu with the following commands: 
+   
+       sudo add-apt-repository ppa:saltstack/salt
+       sudo apt-get update
+       sudo apt-get install salt-cloud
+       
